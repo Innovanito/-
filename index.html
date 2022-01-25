@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <script defer src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.25.0/axios.min.js"
+    integrity="sha512-/Q6t3CASm04EliI1QyIDAA/nDo9R8FQ/BULoUFyN4n/BDdyIxeH7u++Z+eobdmr11gG5D/6nPFyDlnisDwhpYA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <div class="header">
     <h1>타이핑마스터!</h1>
   </div>
@@ -25,6 +29,7 @@
       획득점수: <span class="score">0</span>점
     </div>
   </div>
-  <button class="button loading">게임 불러오는 중</button>
+  <button class="button loading " onclick="run()">게임 불러오는 중</button>
+  
 </body>
 </html>
